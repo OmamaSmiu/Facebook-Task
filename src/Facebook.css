@@ -1,0 +1,62 @@
+#mainCard{
+    width: 80%;
+    border: 5px solid white;
+    margin-left: 45px;
+}
+.profileName{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+#Profile{
+    height: 50px;
+    width: 50px;
+    float: left;
+    border-radius: 50%;
+}
+#Image{
+    width: 360px;
+    height: 350px;
+    margin-top: 10px;
+}
+.postText{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.MianBtn{
+    margin-top:10px ;
+}
+.Btn1{
+    width: 30%;
+    padding: 10px;
+    outline: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid red;
+    background-color: red;
+}
+.Btn2{
+    width: 30%;
+    padding: 10px;
+    outline: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 5px;
+    border: 1px solid red;
+    background-color: red;
+}
+.Btn3{
+    width: 30%;
+    padding: 10px;
+    outline: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10px;
+    border: 1px solid red;
+    background-color: red;
+}

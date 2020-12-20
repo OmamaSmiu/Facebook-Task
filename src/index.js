@@ -1,17 +1,46 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import Facebook from './Facebook';
+import { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function Hi() {
+  const [handle, sethandle] = useState({name: "", profile:"",text:"",img:""});
+  const [posts, setposts] = useState([])
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+  const postContent = () => {
+    setposts([...posts,handle])
+    sethandle({name:"",profile:"",img:""})
+
+  }
+
+  return <div className="mainCard">
+  <div class="card">
+    <h2 className="postHeading">Facebook Post</h2>
+    <div className="input-container">
+    <label className="postLabel">UserName</label>
+    <input type="text" value={handle.name} onChange={e => sethandle({...handle,name:e.target.value})} className="input1"></input>
+    </div>
+    <div className="input-container">
+    <label className="postLabel">ProfileImage</label>
+    <input type="text" value={handle.profile} onChange={e => sethandle({...handle,profile:e.target.value})} className="input2"></input>
+    </div>
+    <div className="input-container">
+    <label className="postLabel">Text</label>
+    <input type="text" value={handle.text} onChange={e => sethandle({...handle,text:e.target.value})} className="input3"></input>
+    </div>
+    <div className="input-container">
+    <label className="postLabel">Post</label>
+    <input type="text" value={handle.img} onChange={e => sethandle({...handle,img:e.target.value})} className="input4"></input>
+    </div>
+    <button  onClick={postContent} type="button" class="btn btn-danger" className="postBtn">Post</button>
+    {posts.map(data=> <Facebook data={data}/>)}
+  </div>
+  </div>
+}
+
+ReactDOM.render(<Hi />, document.getElementById('root'))
+
+export default Facebook;

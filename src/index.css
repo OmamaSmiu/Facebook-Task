@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: red;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mainCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid red;
+  background-color: black;
+}
+.postHeading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+.postLabel{
+  color: red;
+  font-size: large;
+  font-weight: bold;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.input1{
+  margin-left: 40px;
+  width: 60%;
+  padding: 10px;
+  outline: none;
+}
+.input2{
+  margin-left: 15px;
+  width: 60%;
+  padding: 10px;
+  outline: none;
+}
+.input3{
+  margin-left: 88px;
+  width: 60%;
+  padding: 10px;
+  outline: none;
+}
+.input4{
+  margin-left: 88px;
+  width: 60%;
+  padding: 10px;
+  outline: none;
+}
+.input1 .input2,:focus {
+  border: 2px solid dodgerblue;
+}
+.postBtn{
+  width: 20%;
+  padding: 10px;
+  outline: none;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  margin-left: 45px;
+  border: 1px solid red;
+  background-color: red;
 }
