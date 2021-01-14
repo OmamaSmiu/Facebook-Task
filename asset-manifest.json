@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Facebook-Task/static/css/main.2f0020e6.chunk.css",
+    "main.js": "/Facebook-Task/static/js/main.bb3520d6.chunk.js",
+    "main.js.map": "/Facebook-Task/static/js/main.bb3520d6.chunk.js.map",
+    "runtime-main.js": "/Facebook-Task/static/js/runtime-main.e18b476c.js",
+    "runtime-main.js.map": "/Facebook-Task/static/js/runtime-main.e18b476c.js.map",
+    "static/css/2.95f25948.chunk.css": "/Facebook-Task/static/css/2.95f25948.chunk.css",
+    "static/js/2.b99053c5.chunk.js": "/Facebook-Task/static/js/2.b99053c5.chunk.js",
+    "static/js/2.b99053c5.chunk.js.map": "/Facebook-Task/static/js/2.b99053c5.chunk.js.map",
+    "index.html": "/Facebook-Task/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/Facebook-Task/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.2f0020e6.chunk.css.map": "/Facebook-Task/static/css/main.2f0020e6.chunk.css.map",
+    "static/js/2.b99053c5.chunk.js.LICENSE.txt": "/Facebook-Task/static/js/2.b99053c5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e18b476c.js",
+    "static/css/2.95f25948.chunk.css",
+    "static/js/2.b99053c5.chunk.js",
+    "static/css/main.2f0020e6.chunk.css",
+    "static/js/main.bb3520d6.chunk.js"
+  ]
+}
